@@ -20,7 +20,7 @@ npm install
 node index.js
 ```
 
-(Disclaimer: copy pasting bash commands in your terminal is a very bad practice security-wise)
+(Disclaimer: copy pasting bash commands in your terminal [is a terrible practice](https://thejh.net/misc/website-terminal-copy-paste) security-wise
 
 ### Resources
 
